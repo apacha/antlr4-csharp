@@ -250,7 +250,6 @@ Parser(parser, funcs, atn, sempredFuncs, superClass) ::= <<
 
 Parser_(parser, funcs, atn, sempredFuncs, ctor, superClass) ::= <<
 [System.CodeDom.Compiler.GeneratedCode("ANTLR", "<file.ANTLRVersion>")]
-[System.CLSCompliant(false)]
 public partial class <csIdentifier.(parser.name)> : <superClass; null="Parser"> {
 	<if(parser.tokens)>
 	public const int
